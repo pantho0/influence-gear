@@ -309,4 +309,20 @@ body {
     .btn-secondary {
         margin-bottom: 20px;
     }
+    .more-button {
+        text-align: center;
+        margin-right: 0;
+    }
+}
+/* ============================ */
+@media screen and (min-width:577px) {
+    .more-button {
+        margin-right: 0%;
+    }
+    .featured-products {
+        justify-content: space-between;
+    }
+    .products-content h2 {
+        font-size: 1.8rem;
+    }
 }
