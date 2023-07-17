@@ -9,6 +9,7 @@
     --pink: #E02C6D;
     --white: #fff;
     --lightgray: #D9DBE1;
+    --blackgry:#18191F;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap');
@@ -17,4 +18,125 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.btn-primary {
+	background-color: var(--pink);
+	color: var(--white);
+	font-size: 1rem;
+	font-weight: 700;
+	border: 0;
+	padding: 12px 20px;
+	border-radius: 25px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
 
+/* Header Section Styles Here */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    align-items: center;
+}
+.logo h3{
+    color: var(--black);
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.menu ul li a{
+    text-decoration: none;  
+    color: var(--black);
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+    background-image: url('../images/Circle\ design.svg');
+    background-size: ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.banner-content {
+	width: 42%;
+}
+.banner-content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--black);
+}
+.banner-content p{
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.banner-img img{
+    width: 100%;
+}
+/* Support-Partners Styles Here */
+.support-partners{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+}
+/* Popular Collection Styles Here */
+.support-partners {
+	box-shadow: 0px 6px 5px 2px #cccbcbb5;
+	padding: 20px 0px;
+}
+.collection-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.collection-title{
+    margin: 50px 0px;
+}
+.collection-title h3{
+    font-size: 1.7rem;
+    color: var(--black);
+    font-weight: 600;
+}
+.card{
+    width: 250px;
+    margin-bottom: 15px;
+    box-shadow: 0px 6px 5px 2px #cccbcbb5;
+    padding: 20px 20px;
+
+}
+.card img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card h3{
+    font-size: 1.4rem;
+    color: var(--blackgry);
+    font-weight: 500;
+}
+.card h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.card p{
+   font-size: .8rem;
+   color: var(--gray);
+   font-weight: 700;
+}
+
+.flex{
+    display: flex;
+    justify-content: center ;
+    
+}
